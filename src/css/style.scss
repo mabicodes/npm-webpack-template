@@ -1,0 +1,16 @@
+
+.card {
+  width: 300px;
+  border: thin solid black;
+  border-radius: 7px;
+  box-shadow: black 1px 1px;
+  margin: auto;
+  padding: 10px;
+}
+
+#clicker {
+  margin-bottom: 10px;
+  &:hover {
+    transform: translate(2px, 2px);
+  }
+}
